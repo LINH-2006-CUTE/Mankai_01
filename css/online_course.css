@@ -269,6 +269,11 @@ body {
   width: 300px;
 }
 
+ img {
+ width: 378px;
+ height: 184px;
+}
+
 .course-image img {
   width: 100%;
   height: 150px;
@@ -329,6 +334,9 @@ body {
 /* Learn with Mankai Section */
 .learn-mankai-section {
   padding: 40px 120px;
+  width: 789px;
+  height: 1823px;
+
 }
 
 .learn-mankai-section h2 {
@@ -344,12 +352,9 @@ body {
   margin-bottom: 24px;
 }
 
-.mankai-items {
+.main-content{
   display: flex;
-  gap: 24px;
-  margin-bottom: 40px;
 }
-
 .mankai-card {
   background-color: #fff;
   border-radius: 12px;
@@ -357,6 +362,32 @@ body {
   padding: 16px;
   width: 300px;
   position: relative;
+  margin-bottom: 24px;
+  width: 741px;
+  height: 179.25px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+
+}
+
+#kaiwa-AI {
+  width: 141.77px;
+  height: 141.77px;
+
+}
+.mankaiimg-mina2{
+  width: 111px;
+  height: 166px;
+}
+
+.mankaiimg-mina1{
+  width: 180px;
+  height: 174px;
+}
+
+
+.mankai-details {
 }
 
 .mankai-details h3 {
@@ -364,6 +395,7 @@ body {
   font-weight: 600;
   color: #1d2939;
   margin-bottom: 8px;
+ 
 }
 
 .mankai-details .mankai-badge {
@@ -508,7 +540,7 @@ body {
   font-size: 14px;
   color: #667085;
 }
-
+  
 .streaks-calendar {
   display: flex;
   gap: 8px;
